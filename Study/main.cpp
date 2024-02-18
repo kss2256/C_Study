@@ -2,20 +2,17 @@
 #include <iostream>
 
 #include "ksVector.h"
+#include "ksList.h"
+#include "ksStack.h"
+#include "ksCircleQue.h"
 
 
 
 int main()
 {
 
-	ks::Vector<int> myVector;
-	std::vector<int> stdvec;
 
 
-	
-	myVector.push_Back(1);
-	myVector.push_Back(5);
-	myVector.push_Back(3);
 
 	
 

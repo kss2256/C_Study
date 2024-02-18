@@ -21,15 +21,18 @@
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="ksCircleQue.h">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ksVector.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="List.h">
+    <ClInclude Include="ksList.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Stack.h">
+    <ClInclude Include="ksStack.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

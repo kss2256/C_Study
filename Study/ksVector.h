@@ -3,7 +3,7 @@
 
 namespace ks
 {
-	template <typename T>
+	template <typename T, int SIZE = 4>
 	class Vector
 	{
 
@@ -58,7 +58,7 @@ namespace ks
 		Vector()
 		{
 			mSize = 0;
-			mCapacity = 4;
+			mCapacity = SIZE;
 
 			mData = new T[mCapacity];
 
