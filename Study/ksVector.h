@@ -3,7 +3,7 @@
 
 namespace ks
 {
-	template <typename T, int SIZE = 4>
+	template <typename T, bool SORT = false, int SIZE = 4>
 	class Vector
 	{
 
@@ -13,6 +13,27 @@ namespace ks
 		T*			mData;
 		int			mSize;
 		int			mCapacity;
+
+	private:
+
+		void sort(int _data)
+		{
+			if (_data == 1)
+				return;
+
+			for (size_t i = 0; i < mSize - 1; i++)
+			{				
+				if (mData[i] > mData[i + 1])
+				{
+					mData[mSize] = mData[i];
+					mData[i] = mData[i + 1];
+					mData[i + 1] = mData[mSize];
+				}
+			}
+
+			return sort(_data - 1);
+		}
+
 
 	public:
 
@@ -28,11 +49,14 @@ namespace ks
 		void push_Back(T _data)
 		{
 
-			if (mSize >= mCapacity)
+			if (mSize + 1 >= mCapacity)
 			{
 				Relocation();
 			}		
 			mData[mSize++] = _data;
+
+			if(SORT)
+			sort(mSize);
 		}
 
 	public:

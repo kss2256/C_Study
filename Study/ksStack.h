@@ -4,21 +4,21 @@
 namespace ks
 {
 	template <typename T>
-	class CStakcNode
+	class StakcNode
 	{
 
 	private:
 
 		T					m_Data;
-		CStakcNode<T>*		m_Next;
+		StakcNode<T>*		m_Next;
 
 
 	private:
-		CStakcNode()
+		StakcNode()
 			: m_Data(0)
 			, m_Next(nullptr)
 		{}
-		~CStakcNode()
+		~StakcNode()
 		{}
 
 		template <typename T>
@@ -29,11 +29,11 @@ namespace ks
 
 
 	template <typename T>
-	class CStack
+	class Stack
 	{
 	private:
-		typedef CStakcNode<T>		NODE;
-		typedef CStakcNode<T>*		PNODE;
+		typedef StakcNode<T>		NODE;
+		typedef StakcNode<T>*		PNODE;
 
 	private:
 
@@ -120,13 +120,13 @@ namespace ks
 
 
 	public:
-		CStack()
+		Stack()
 			: m_Last(nullptr)
 			, m_Size(0)
 		{
 
 		}
-		~CStack()
+		~Stack()
 		{
 			PNODE Node = m_Last;
 

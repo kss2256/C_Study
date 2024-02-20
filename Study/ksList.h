@@ -102,7 +102,7 @@ namespace ks
 
 
 	template <typename T>
-	class LinkedList
+	class List
 	{
 
 	public:
@@ -448,7 +448,7 @@ namespace ks
 
 	public:
 
-		LinkedList()
+		List()
 			: m_Begin(nullptr)
 			, m_End(nullptr)
 		{
@@ -462,7 +462,7 @@ namespace ks
 			m_Size = 0;
 		}
 
-		~LinkedList()
+		~List()
 		{
 
 			ListNode<T>* Node = m_Begin;
