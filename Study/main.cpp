@@ -1,5 +1,4 @@
 #include <iostream>
-#include <map>
 
 #include "ksVector.h"
 #include "ksList.h"
@@ -8,26 +7,29 @@
 #include "ksTree.h"
 
 
+bool Up(int x, int y) { return x > y; }
+bool Down(int x, int y) { return x < y; }
+
+bool Up(float x, float y) { return x > y; }
+bool Down(float x, float y) { return x < y; }
+
 
 int main()
 {
 
-	ks::Vector<int, true> test;
+	ks::Vector<float> myVector;
 
-	
-	test.push_Back(5);
-	test.push_Back(1);	
-	test.push_Back(3);
-	test.push_Back(8);
-	test.push_Back(2);
+	myVector.push_Back(10.21f);
+	myVector.push_Back(10.2f);
+	myVector.push_Back(10.1f);
+	myVector.push_Back(35.2f);
+	myVector.push_Back(25.1f, Up);
 
-
-	for (size_t i = 0; i < test.size(); i++)
+	for (size_t i = 0; i < myVector.size(); i++)
 	{
-		std::cout << test[i] << std::endl;
+		std::cout << myVector[i] << std::endl;
 	}
 
-	
 
 
 	return 0;

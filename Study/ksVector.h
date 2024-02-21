@@ -1,11 +1,16 @@
 #pragma once
 
 
+
 namespace ks
 {
-	template <typename T, bool SORT = false, int SIZE = 4>
+	template <typename T, int SIZE = 4>
 	class Vector
 	{
+	public:
+
+		typedef bool (*Function)(T, T);
+		
 
 
 	private:
@@ -13,17 +18,18 @@ namespace ks
 		T*			mData;
 		int			mSize;
 		int			mCapacity;
+		
 
 	private:
 
-		void sort(int _data)
+		void sort(int _data, Function _func)
 		{
 			if (_data == 1)
 				return;
 
 			for (size_t i = 0; i < mSize - 1; i++)
 			{				
-				if (mData[i] > mData[i + 1])
+				if (_func(mData[i],mData[i + 1]))
 				{
 					mData[mSize] = mData[i];
 					mData[i] = mData[i + 1];
@@ -31,7 +37,7 @@ namespace ks
 				}
 			}
 
-			return sort(_data - 1);
+			return sort(_data - 1, _func);
 		}
 
 
@@ -55,8 +61,20 @@ namespace ks
 			}		
 			mData[mSize++] = _data;
 
-			if(SORT)
-			sort(mSize);
+			
+		}
+
+
+		void push_Back(T _data, Function _func)
+		{
+			if (mSize + 1 >= mCapacity)
+			{
+				Relocation();
+			}
+			mData[mSize++] = _data;
+
+			
+			sort(mSize, _func);
 		}
 
 	public:

@@ -24,6 +24,9 @@
     <ClCompile Include="ksCircleQue.h">
       <Filter>헤더 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ksBinaryTree.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ksVector.h">
