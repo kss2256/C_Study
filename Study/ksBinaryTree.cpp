@@ -8,7 +8,9 @@ namespace ks
 	{
 	private:
 
-
+		Node*		mParent;
+		Node*		mRightChild;
+		Node*		mLeftChild;
 
 	public:
 		Node()

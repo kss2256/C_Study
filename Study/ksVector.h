@@ -1,7 +1,6 @@
 #pragma once
 
 
-
 namespace ks
 {
 	template <typename T, int SIZE = 4>
@@ -11,14 +10,13 @@ namespace ks
 
 		typedef bool (*Function)(T, T);
 		
-
+		
 
 	private:
 		
 		T*			mData;
 		int			mSize;
 		int			mCapacity;
-		
 
 	private:
 
@@ -26,7 +24,7 @@ namespace ks
 		{
 			if (_data == 1)
 				return;
-
+		
 			for (size_t i = 0; i < mSize - 1; i++)
 			{				
 				if (_func(mData[i],mData[i + 1]))
@@ -98,11 +96,11 @@ namespace ks
 	public:
 
 		Vector()
+			: mSize(0)
+			, mCapacity(SIZE)		
 		{
-			mSize = 0;
-			mCapacity = SIZE;
-
 			mData = new T[mCapacity];
+			
 
 		}
 		~Vector()

@@ -16,16 +16,22 @@
     <Filter Include="cpp">
       <UniqueIdentifier>{9a506188-72e6-4a8e-a12f-7a01d657dc4d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CodingTest">
+      <UniqueIdentifier>{1252a0c5-9b35-4bd7-8071-779ae6367b86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>main</Filter>
-    </ClCompile>
     <ClCompile Include="ksCircleQue.h">
       <Filter>헤더 파일</Filter>
     </ClCompile>
     <ClCompile Include="ksBinaryTree.cpp">
       <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
