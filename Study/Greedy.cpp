@@ -30,11 +30,14 @@ int solution(vector<int> people, int limit)
     const int Min = 40;
     const int Max = 240;
 
+    int MinPeople = 0;
+    int MaxPeople = people.size() - 1;
+
     //오름 차순으로 정렬
     sort(people.begin(), people.end());
 
     //예외 처리 
-    for (size_t i = 0; i < people.size(); i++)
+    for (size_t i = 0; i < MaxPeople; i++)
     {
         //몸무게 40 이하 240 이상 , 리미트 무게보다 무거우면 오류
         if (people[i] < Min || people[i] > Max || Max < limit)
@@ -44,24 +47,24 @@ int solution(vector<int> people, int limit)
     }
         
 
-    for (size_t i = 0; i < people.size();)
+    for (; MinPeople <= MaxPeople;)
     {
         //만약 남아있는 최소값 + 최대값이 limit보다 큰 경우  최대값 탈출
-        if (people[i] + people[people.size() - 1] > limit)
+        if (people[MinPeople] + people[MaxPeople] > limit)
         {
             ++result;
-            people.pop_back();
+            --MaxPeople;
         }
         //만약 limit 보다 작았을경우
         else
         {
             //혹시 두명 남았을 경우에는 태우고 종료          
-            if (i + 1 == people.size() - 1)
+            if (MinPeople + 1 == MaxPeople)
                 return ++result;
 
             //최소값 + 최대값 태워서 보내기
-            ++i;
-            people.pop_back();
+            ++MinPeople;
+            --MaxPeople;
             ++result;
         }
     }
@@ -75,7 +78,6 @@ int main()
 
     vector<int> PeopleWeights;
     PeopleWeights.push_back(70);
-    PeopleWeights.push_back(50);
     PeopleWeights.push_back(80);
     PeopleWeights.push_back(50);
     
@@ -84,7 +86,11 @@ int main()
     
    std::cout << test;
     
-    
+   //std::string tets = "Hellow \"feuhs\"! ";
+   std::string tets = R"(Hellow "feuhs" !)";
+
+
+   std::cout << tets;
 
     return 0;
 }
