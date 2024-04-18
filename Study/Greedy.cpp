@@ -18,10 +18,8 @@ using namespace std;
 /*
     1. 무게 제한 설정하기.
     2. 각 사람을 몸무게 별로 오름차순 정렬 하기.
-    3. 
-
-
-
+    3. 최소 + 최대가 리밋을 넘기면 최대만 보내기
+    2명씩만 태울수 있음.
 */
 
 
@@ -67,7 +65,7 @@ int solution(vector<int> people, int limit)
             ++result;
         }
     }
-
+   
     return result;
 }
 
