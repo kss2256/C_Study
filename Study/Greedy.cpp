@@ -36,17 +36,16 @@ int solution(vector<int> people, int limit)
     //오름 차순으로 정렬
     sort(people.begin(), people.end());
 
-    //예외 처리 
-    for (size_t i = 0; i < MaxPeople; i++)
-    {
-        //몸무게 40 이하 240 이상 , 리미트 무게보다 무거우면 오류
-        if (people[i] < Min || people[i] > Max || Max < limit)
-        {
-            cout << "무게 설정 오류" << endl;
-        }
-    }
-        
+	//예외 처리
+    //몸무게 40 이하 240 이상 , 리미트 무게보다 무거우면 오류
+	if (people[0] < Min || people[MaxPeople] > Max ||
+		people[0] > limit || people[MaxPeople] > Max)
+	{
+		cout << "무게 설정 오류" << endl;
+	}
 
+        
+    //한명이 남을때 까지
     for (; MinPeople <= MaxPeople;)
     {
         //만약 남아있는 최소값 + 최대값이 limit보다 큰 경우  최대값 탈출

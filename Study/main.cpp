@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 #include <vector>
 #include <deque>
@@ -59,12 +59,26 @@ void TEST(int _x, int _y)
 	}
 }
 
+double Sqrt(double n)
+{
+	double s = 0;
+	double t = 0;
+
+	s = n / 2;
+	for (; s != t;)
+	{
+		t = s;
+		s = ((n / t) + t) / 2;
+	}
+	return s;
+}
+
 
 
 
 int main()
 {
-
+	
 	ks::Vector<float> myVector;
 
 	myVector.push_Back(10.21f);
