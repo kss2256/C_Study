@@ -85,8 +85,7 @@ vector<int> solution(int brown, int yellow)
 		cout << "수량 제한 오류" << endl;
 	}
 
-
-
+	//최소 라인줄이 3부터라 3부터 시작
 	int blockTotal = brown + yellow;
 	int col = 3;
 	int row = 0;
