@@ -36,6 +36,9 @@
     <ClCompile Include="BruteForceSearch.cpp">
       <Filter>CodingTest</Filter>
     </ClCompile>
+    <ClCompile Include="Fibonacci.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ksVector.h">
