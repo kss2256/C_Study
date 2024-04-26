@@ -45,6 +45,9 @@
     <ClCompile Include="StackQueue.cpp">
       <Filter>CodingTest</Filter>
     </ClCompile>
+    <ClCompile Include="BestValue.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ksVector.h">

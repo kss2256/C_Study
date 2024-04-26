@@ -17,6 +17,28 @@ using namespace std;
 
 */
 
+//보고 공부할 코드
+//vector<int> solution(vector<int> progresses, vector<int> speeds) 
+//{
+//    vector<int> answer;
+//
+//    int day;
+//    int max_day = 0;
+//    for (int i = 0; i < progresses.size(); ++i)
+//    {
+//        day = (99 - progresses[i]) / speeds[i] + 1;
+//
+//        if (answer.empty() || max_day < day)
+//            answer.push_back(1);
+//        else
+//            ++answer.back();
+//
+//        if (max_day < day)
+//            max_day = day;
+//    }
+//
+//    return answer;
+//}
 
 
 vector<int> solution(vector<int> progresses, vector<int> speeds) 
@@ -29,12 +51,13 @@ vector<int> solution(vector<int> progresses, vector<int> speeds)
         sumvec[i] = progresses[i];
     }
     
-    int test = 0;
+    int value = 0;
     int iter = 0;
 
     //반복
     while (iter < progresses.size())
     {
+        //1일 
 		for (int i = iter; i < speeds.size(); ++i)
 		{
             //스피드 만큼 더해주기
@@ -47,16 +70,16 @@ vector<int> solution(vector<int> progresses, vector<int> speeds)
             while (sumvec[iter] >= 100)
             {
                 ++iter;
-                ++test;
+                ++value;
 
                 if (iter >= progresses.size())
                 {
-                    answer.push_back(test);
+                    answer.push_back(value);
                     return answer;
                 }
             }
-            answer.push_back(test);
-            test = 0;
+            answer.push_back(value);
+            value = 0;
         }
 
     }
@@ -64,6 +87,11 @@ vector<int> solution(vector<int> progresses, vector<int> speeds)
 
     return answer;
 }
+
+
+
+
+
 
 
 int main()
@@ -74,14 +102,13 @@ int main()
     vector<int> b = { 93, 30, 55 };
     vector<int> c = { 1, 30, 5 };
 
-   
+
+
 
     a = solution(b, c);
 
-    for (size_t i = 0; i < a.size(); i++)
-    {
-        cout << a[i];
-    }
 
     return 0;
 }
+
+
