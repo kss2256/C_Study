@@ -48,6 +48,15 @@
     <ClCompile Include="BestValue.cpp">
       <Filter>CodingTest</Filter>
     </ClCompile>
+    <ClCompile Include="QuadValue.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ksVector.h">
