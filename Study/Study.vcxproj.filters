@@ -57,6 +57,12 @@
     <ClCompile Include="Dynamic.cpp">
       <Filter>CodingTest</Filter>
     </ClCompile>
+    <ClCompile Include="Integer.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS_NetWork.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ksVector.h">

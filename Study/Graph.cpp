@@ -41,7 +41,7 @@ using namespace std;
 
 int solution(int n, vector<vector<int>> edge) 
 {
-
+    //노드 ,페어 (벡터, 2 , true);
     unordered_map<int, pair<vector<int>, pair<int, bool>>> graph;
 
     //그래프 초기화 노드 번호에 맞춰 1부터 시작
