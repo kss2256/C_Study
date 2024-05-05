@@ -19,6 +19,12 @@
     <Filter Include="CodingTest">
       <UniqueIdentifier>{1252a0c5-9b35-4bd7-8071-779ae6367b86}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CodingTest\0505">
+      <UniqueIdentifier>{720482b2-3f02-42b4-a62f-d71f64985caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\~0504">
+      <UniqueIdentifier>{d97dc292-9dd4-4ab2-8d36-932434d242dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ksCircleQue.h">
@@ -27,41 +33,44 @@
     <ClCompile Include="ksBinaryTree.cpp">
       <Filter>헤더 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Greedy.cpp">
-      <Filter>CodingTest</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="BruteForceSearch.cpp">
-      <Filter>CodingTest</Filter>
-    </ClCompile>
-    <ClCompile Include="Fibonacci.cpp">
-      <Filter>CodingTest</Filter>
-    </ClCompile>
-    <ClCompile Include="Measure.cpp">
-      <Filter>CodingTest</Filter>
-    </ClCompile>
-    <ClCompile Include="StackQueue.cpp">
-      <Filter>CodingTest</Filter>
+    <ClCompile Include="One.cpp">
+      <Filter>CodingTest\0505</Filter>
     </ClCompile>
     <ClCompile Include="BestValue.cpp">
-      <Filter>CodingTest</Filter>
+      <Filter>CodingTest\~0504</Filter>
     </ClCompile>
-    <ClCompile Include="QuadValue.cpp">
-      <Filter>CodingTest</Filter>
-    </ClCompile>
-    <ClCompile Include="Graph.cpp">
-      <Filter>CodingTest</Filter>
-    </ClCompile>
-    <ClCompile Include="Dynamic.cpp">
-      <Filter>CodingTest</Filter>
-    </ClCompile>
-    <ClCompile Include="Integer.cpp">
-      <Filter>CodingTest</Filter>
+    <ClCompile Include="BruteForceSearch.cpp">
+      <Filter>CodingTest\~0504</Filter>
     </ClCompile>
     <ClCompile Include="DFS_NetWork.cpp">
-      <Filter>CodingTest</Filter>
+      <Filter>CodingTest\~0504</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic.cpp">
+      <Filter>CodingTest\~0504</Filter>
+    </ClCompile>
+    <ClCompile Include="Fibonacci.cpp">
+      <Filter>CodingTest\~0504</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>CodingTest\~0504</Filter>
+    </ClCompile>
+    <ClCompile Include="Greedy.cpp">
+      <Filter>CodingTest\~0504</Filter>
+    </ClCompile>
+    <ClCompile Include="Integer.cpp">
+      <Filter>CodingTest\~0504</Filter>
+    </ClCompile>
+    <ClCompile Include="Measure.cpp">
+      <Filter>CodingTest\~0504</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadValue.cpp">
+      <Filter>CodingTest\~0504</Filter>
+    </ClCompile>
+    <ClCompile Include="StackQueue.cpp">
+      <Filter>CodingTest\~0504</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
