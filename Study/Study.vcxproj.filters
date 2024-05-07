@@ -25,6 +25,9 @@
     <Filter Include="CodingTest\~0504">
       <UniqueIdentifier>{d97dc292-9dd4-4ab2-8d36-932434d242dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CodingTest\0507">
+      <UniqueIdentifier>{13c946ff-426e-4ae3-910c-4a046b9bc801}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ksCircleQue.h">
@@ -36,7 +39,7 @@
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="One.cpp">
+    <ClCompile Include="One0505.cpp">
       <Filter>CodingTest\0505</Filter>
     </ClCompile>
     <ClCompile Include="BestValue.cpp">
@@ -71,6 +74,12 @@
     </ClCompile>
     <ClCompile Include="StackQueue.cpp">
       <Filter>CodingTest\~0504</Filter>
+    </ClCompile>
+    <ClCompile Include="Two0505.cpp">
+      <Filter>CodingTest\0505</Filter>
+    </ClCompile>
+    <ClCompile Include="One0507.cpp">
+      <Filter>CodingTest\0507</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

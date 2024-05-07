@@ -17,6 +17,8 @@ int solution(int n, vector<vector<int>> computers)
     vector<bool>visit(n, false);
     std::queue<int> q;
 
+    //모든 그룹을 방문
+
     for (int i = 0; i < n; ++i)
     {
 
