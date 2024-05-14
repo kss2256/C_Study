@@ -41,6 +41,7 @@ int solution(int k, vector<vector<int>> dungeons)
     int curcount = 0, prevcount= 0;
     int fatigue = 0;
 
+
     for (int i = 0; i < dungeons.size(); ++i)
     {
         for (int j = 0; j < dungeons.size() - 1; ++j)

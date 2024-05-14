@@ -37,6 +37,12 @@
     <Filter Include="CodingTest\0510">
       <UniqueIdentifier>{52fff188-87fb-4662-99a3-8ddff57a55f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CodingTest\0513">
+      <UniqueIdentifier>{e2da5c57-a6b7-4bdb-9840-e1bf28489f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\0514">
+      <UniqueIdentifier>{d6bb0ec4-5011-437a-9661-24e4104042a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ksCircleQue.h">
@@ -98,6 +104,12 @@
     </ClCompile>
     <ClCompile Include="One0510.cpp">
       <Filter>CodingTest\0510</Filter>
+    </ClCompile>
+    <ClCompile Include="One0513.cpp">
+      <Filter>CodingTest\0513</Filter>
+    </ClCompile>
+    <ClCompile Include="One0514.cpp">
+      <Filter>CodingTest\0514</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
