@@ -43,11 +43,11 @@
     <Filter Include="CodingTest\0514">
       <UniqueIdentifier>{d6bb0ec4-5011-437a-9661-24e4104042a1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0516">
-      <UniqueIdentifier>{1c5cbc26-07f8-47a8-8bff-a46769cfea36}</UniqueIdentifier>
-    </Filter>
     <Filter Include="CodingTest\0515">
       <UniqueIdentifier>{1edb5f92-2e2d-41a1-8f4e-fdaea639b1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\0517">
+      <UniqueIdentifier>{1c5cbc26-07f8-47a8-8bff-a46769cfea36}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +119,9 @@
     </ClCompile>
     <ClCompile Include="One0515.cpp">
       <Filter>CodingTest\0515</Filter>
+    </ClCompile>
+    <ClCompile Include="One0517.cpp">
+      <Filter>CodingTest\0517</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
