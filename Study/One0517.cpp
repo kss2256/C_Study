@@ -31,9 +31,9 @@ k			tangerine					result
 
 */
 
-bool Compare(int a, int b)
+bool Down(int left, int right)
 {
-    return a > b;
+    return left > right;
 }
 
 
@@ -45,9 +45,8 @@ int solution(int k, vector<int> tangerine)
     //[1, 3, 2, 5, 4, 5, 2, 3] 입력된 수
 
 
-
-    //5,5,4,3,3,2,2,1 내림 차순으로 변경
-    sort(tangerine.begin(), tangerine.end(), Compare);
+    //5,5,5,5,4,3,3,2,2,1 내림 차순으로 변경
+    sort(tangerine.begin(), tangerine.end(), Down);
 
 
     //2,1,2,2,1 중복된 수 개수 체크 하기
@@ -67,9 +66,9 @@ int solution(int k, vector<int> tangerine)
 
 
 
-    //2,1,2,2,1 
+    //4,1,2,2,1 
     //2,2,2,1,1 내림차순으로 변경
-    sort(result.begin(), result.end(), Compare);
+    sort(result.begin(), result.end(), Down);
 
 
     //k만큼 수 빼주고 몇통 나오는지 확인
