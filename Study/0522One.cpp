@@ -144,10 +144,14 @@ int bfs(vector<vector<int>>& land, vector<vector<node>>& visit, int row, int col
 int solution(vector<vector<int>> land)
 {
     int answer = 0;
+    //2차원 배열에 node <- node는 방문 여부(false), 석유 덩어리 번호-1이 디폴트
     vector<vector<node>> visits(land.size(), std::vector<node>(land[0].size()));
+    //land 가로열 개수만큼 set사이즈 만들어서 석유 덩어리 번호 중복 안되게 넣어줄 예정
     vector<set<int>> s(land[0].size());
+    //result는 석유 덩어리 번호가 인덱스가 되서 몇덩어리 인지 저장 sum은 마지막에 총합 더해서 내림차순 정렬 0번 반환
     vector<int> results, sum;
     int IDX = -1;
+
 
     // N x N 판에 있는 석유 덩어리 별로 저장 하기
     for (int col = 0; col < land[0].size(); ++col)
@@ -175,6 +179,7 @@ int solution(vector<vector<int>> land)
         }
     }
 
+    //set 배열 2차월 배열로 옮기기
     vector<vector<int>> itervec(s.size());
 
     for (int i = 0; i < s.size(); ++i)
@@ -183,6 +188,8 @@ int solution(vector<vector<int>> land)
         copy(s[i].begin(), s[i].end(), back_inserter(itervec[i]));
     }
 
+
+    //sum에 덩어리 개수 합해서 내림차순 정렬 
     sum.resize(land[0].size());
 
     for (int i = 0; i < itervec.size(); i++)

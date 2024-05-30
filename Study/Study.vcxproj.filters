@@ -19,41 +19,59 @@
     <Filter Include="CodingTest">
       <UniqueIdentifier>{1252a0c5-9b35-4bd7-8071-779ae6367b86}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0505">
-      <UniqueIdentifier>{720482b2-3f02-42b4-a62f-d71f64985caf}</UniqueIdentifier>
+    <Filter Include="CodingTest\날짜별로">
+      <UniqueIdentifier>{83dda606-7e3f-41d4-91cd-37adcd4119ea}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\~0504">
+    <Filter Include="CodingTest\날짜별로\~0504">
       <UniqueIdentifier>{d97dc292-9dd4-4ab2-8d36-932434d242dc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0507">
+    <Filter Include="CodingTest\날짜별로\0505">
+      <UniqueIdentifier>{720482b2-3f02-42b4-a62f-d71f64985caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\날짜별로\0507">
       <UniqueIdentifier>{13c946ff-426e-4ae3-910c-4a046b9bc801}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0508">
+    <Filter Include="CodingTest\날짜별로\0508">
       <UniqueIdentifier>{f008fa3d-5e4c-4c7d-b3c9-40f75afd3883}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0509">
+    <Filter Include="CodingTest\날짜별로\0509">
       <UniqueIdentifier>{13489d4a-029a-4bd2-ae1d-0e35fe4773f9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0510">
+    <Filter Include="CodingTest\날짜별로\0510">
       <UniqueIdentifier>{52fff188-87fb-4662-99a3-8ddff57a55f1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0513">
+    <Filter Include="CodingTest\날짜별로\0513">
       <UniqueIdentifier>{e2da5c57-a6b7-4bdb-9840-e1bf28489f42}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0514">
+    <Filter Include="CodingTest\날짜별로\0514">
       <UniqueIdentifier>{d6bb0ec4-5011-437a-9661-24e4104042a1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0515">
+    <Filter Include="CodingTest\날짜별로\0515">
       <UniqueIdentifier>{1edb5f92-2e2d-41a1-8f4e-fdaea639b1d1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0517">
+    <Filter Include="CodingTest\날짜별로\0517">
       <UniqueIdentifier>{1c5cbc26-07f8-47a8-8bff-a46769cfea36}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0521">
+    <Filter Include="CodingTest\날짜별로\0521">
       <UniqueIdentifier>{707f73aa-d531-49a1-a79f-e6376154ca16}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CodingTest\0522">
+    <Filter Include="CodingTest\날짜별로\0522">
       <UniqueIdentifier>{148ee6ec-e4e7-4604-a1b9-072323eacaca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\날짜별로\0523">
+      <UniqueIdentifier>{e7360040-3c13-4b24-b07d-38a65dc1ec39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\날짜별로\0524">
+      <UniqueIdentifier>{7662604b-5c64-48da-9f2d-fa38c04e62cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\날짜별로\0527">
+      <UniqueIdentifier>{5451a14f-d670-4702-93bd-3c48a8128a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\날짜별로\0528">
+      <UniqueIdentifier>{5c6962c9-ce82-4757-8035-bd9a54366952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\2Level">
+      <UniqueIdentifier>{2f52a319-c5d6-40a2-b576-40abf9fd19cc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -67,73 +85,94 @@
       <Filter>main</Filter>
     </ClCompile>
     <ClCompile Include="One0505.cpp">
-      <Filter>CodingTest\0505</Filter>
+      <Filter>CodingTest\날짜별로\0505</Filter>
     </ClCompile>
     <ClCompile Include="BestValue.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="BruteForceSearch.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="DFS_NetWork.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="Dynamic.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="Fibonacci.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="Graph.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="Greedy.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="Integer.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="Measure.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="QuadValue.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="StackQueue.cpp">
-      <Filter>CodingTest\~0504</Filter>
+      <Filter>CodingTest\날짜별로\~0504</Filter>
     </ClCompile>
     <ClCompile Include="Two0505.cpp">
-      <Filter>CodingTest\0505</Filter>
+      <Filter>CodingTest\날짜별로\0505</Filter>
     </ClCompile>
     <ClCompile Include="One0507.cpp">
-      <Filter>CodingTest\0507</Filter>
+      <Filter>CodingTest\날짜별로\0507</Filter>
     </ClCompile>
     <ClCompile Include="One0508.cpp">
-      <Filter>CodingTest\0508</Filter>
+      <Filter>CodingTest\날짜별로\0508</Filter>
     </ClCompile>
     <ClCompile Include="One0509.cpp">
-      <Filter>CodingTest\0509</Filter>
+      <Filter>CodingTest\날짜별로\0509</Filter>
     </ClCompile>
     <ClCompile Include="One0510.cpp">
-      <Filter>CodingTest\0510</Filter>
+      <Filter>CodingTest\날짜별로\0510</Filter>
     </ClCompile>
     <ClCompile Include="One0513.cpp">
-      <Filter>CodingTest\0513</Filter>
+      <Filter>CodingTest\날짜별로\0513</Filter>
     </ClCompile>
     <ClCompile Include="One0514.cpp">
-      <Filter>CodingTest\0514</Filter>
+      <Filter>CodingTest\날짜별로\0514</Filter>
     </ClCompile>
     <ClCompile Include="One0515.cpp">
-      <Filter>CodingTest\0515</Filter>
+      <Filter>CodingTest\날짜별로\0515</Filter>
     </ClCompile>
     <ClCompile Include="One0517.cpp">
-      <Filter>CodingTest\0517</Filter>
+      <Filter>CodingTest\날짜별로\0517</Filter>
     </ClCompile>
     <ClCompile Include="One0521.cpp">
-      <Filter>CodingTest\0521</Filter>
+      <Filter>CodingTest\날짜별로\0521</Filter>
     </ClCompile>
     <ClCompile Include="0522One.cpp">
-      <Filter>CodingTest\0522</Filter>
+      <Filter>CodingTest\날짜별로\0522</Filter>
+    </ClCompile>
+    <ClCompile Include="One0523.cpp">
+      <Filter>CodingTest\날짜별로\0523</Filter>
+    </ClCompile>
+    <ClCompile Include="One0524.cpp">
+      <Filter>CodingTest\날짜별로\0524</Filter>
+    </ClCompile>
+    <ClCompile Include="One0527.cpp">
+      <Filter>CodingTest\날짜별로\0527</Filter>
+    </ClCompile>
+    <ClCompile Include="One0528.cpp">
+      <Filter>CodingTest\날짜별로\0528</Filter>
+    </ClCompile>
+    <ClCompile Include="점프와순간이동.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="짝 지어 제거하기.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="최댓값과 최솟값.cpp">
+      <Filter>CodingTest\2Level</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
