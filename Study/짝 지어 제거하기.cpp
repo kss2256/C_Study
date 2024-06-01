@@ -5,13 +5,11 @@
 using namespace std;
 
 
-
 //int solution(string s)
 //{
 //    int answer = 0;
-//    queue<char> q;
-//
-//
+// 
+// 
 //    for (char i = 0; i < s.size();)
 //    {
 //        if (s[i] == s[i + 1])
@@ -49,10 +47,7 @@ int solution(string s)
             stack.push(s[i]);
         }
 
-
     }
-
-
 
     return stack.empty();
 }
