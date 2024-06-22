@@ -180,6 +180,33 @@
     <ClCompile Include="예상 대진표.cpp">
       <Filter>CodingTest\2Level</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>CodingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="멀리 뛰기.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="뒤에 있는 큰 수 찾기.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="멀쩡한 사각형.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="주식가격.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="N개의 최소공배수.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="n^2 배열 자르기.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="다리를 지나는 트럭.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="배달.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ksVector.h">
