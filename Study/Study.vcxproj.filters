@@ -73,6 +73,15 @@
     <Filter Include="CodingTest\2Level">
       <UniqueIdentifier>{2f52a319-c5d6-40a2-b576-40abf9fd19cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="알고리즘">
+      <UniqueIdentifier>{e89ef160-53cb-4e64-8541-b7dcf83b802d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="알고리즘\정렬">
+      <UniqueIdentifier>{21ef6453-fc8d-48f9-8e80-14684a676207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\1Level">
+      <UniqueIdentifier>{275361a4-939a-4e65-b3eb-f1c6851af88b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ksCircleQue.h">
@@ -206,6 +215,27 @@
     </ClCompile>
     <ClCompile Include="배달.cpp">
       <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="땅따먹기.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="선택정렬.cpp">
+      <Filter>알고리즘\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="버블정렬.cpp">
+      <Filter>알고리즘\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="삽입정렬.cpp">
+      <Filter>알고리즘\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="양궁대회.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="삼각 달팽이.cpp">
+      <Filter>CodingTest\2Level</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열을 정수로 바꾸기.cpp">
+      <Filter>CodingTest\1Level</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
